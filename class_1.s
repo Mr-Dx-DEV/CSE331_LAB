@@ -5,5 +5,7 @@ _start:
 	mov r1, #15
 	mov r2, #20
 	
+	add r2, r1, r0
+	
 _end:
      b _end
